@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API_URL = "https://backendloja-ex2s.onrender.com"; // substituir pela URL da api do render AULA 22/05
+const API_URL = "https://frontendapi-5t5x.onrender.com"; // substituir pela URL da api do render AULA 22/05
 
 export default function App() {
   const [produtos, setProdutos] = useState([]);
